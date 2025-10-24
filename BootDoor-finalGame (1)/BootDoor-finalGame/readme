@@ -1,0 +1,32 @@
+Chore Door – Redesign
+Overview
+
+This version improves the original Chore Door game for a smoother and clearer experience. It applies basic Human–Computer Interaction (HCI) principles to help players focus, learn, and play more easily.
+
+New Features
+
+Reset button and automatic restart after each round.
+
+Doors reveal at the end of each game for better feedback.
+
+Hover glow and sounds for clear interaction.
+
+Tracks current and best streaks, plus last three results.
+
+Centered, easier-to-read instructions using divs instead of tables.
+
+HCI Principles
+
+Attention: Hover effects guide player focus.
+
+Memory: Doors reveal to reinforce learning.
+
+Problem-Solving: Recent results help reflection.
+
+Mental Models: Sounds and visuals show what actions mean.
+
+External Cognition: Scores and history reduce memory load.
+
+How to Play
+
+Click doors to open them. Avoid the Bot until the last door to win. The game resets automatically—try to build your streak.

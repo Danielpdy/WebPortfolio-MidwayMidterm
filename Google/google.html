@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="google.css">
+    <title>Google</title>
+</head>
+<body>
+    <div class="mainContainer" id="mainContainer">
+        <div class="contentContainer">
+            <section class="headerContainer" id="headerContainer">
+                <div class="leftLinks">
+                    <a class="headerLink" href="">About</a>
+                    <a class="headerLink" href="">Store</a>
+                </div>
+
+                <div class="rightLinks">
+                    <a class="headerLink" href="">Gmail</a>
+                    <a class="headerLink" href="">Images</a>
+                    <a href="" class="iconContainer"><img id="googleIcon" src="/Google/images/googleIcon.png"></a>
+
+                    <select name="mode" class="modeSelect" id="modeSelect">
+                        <option value="" disabled >Select a mode</option>
+                        <option value="light">Light Mode</option>
+                        <option value="dark">Dark Mode</option>
+                    </select>
+                
+                    <button class="signInButton">Sign in</button>
+                </div>
+            </section>
+
+            <section class="searchContainer">
+                <img class="googleIcon" src="/Google/images/google-logo.png">
+
+                <div class="searchBox">
+                    <div class="searchInput">
+                        <img src="/Google/images/searchIcon.png" class="searchIcon">
+                        <input class="inputField" id="inputField" type="text" placeholder="Search Google or type a URL">
+                    </div>
+
+                    <div class="rightIcons">
+                        <img class="micIcon" src="/Google/images/google-mic.png">
+                        <img class="camIcon" src="/Google/images/google-camera.png">
+                    </div>
+                </div>
+
+                <div class="grayButtonsContainer">
+                    <button class="grayButtons">Google Search</button>
+                    <button class="grayButtons">I'm feeling lucky</button>
+                </div>
+            </section>
+        </div>
+
+
+        <footer class="footer">
+            <div class="footerContainer">
+                <div class="footerTop">
+                    <img src="/Google/images/green-leaf.png" class="leafIcon">
+                    <p class="footerText">Carbon neutral since 2007</p>
+                </div>
+
+                <div class="footerBottom">
+                    <div class="leftLinksFooter">
+                        <a href="">Advertising</a>
+                        <a href="">Business</a>
+                        <a href="">About</a>
+                        <a href="">How Search works</a>
+                    </div>
+
+                    <div class="rightLinksFooter">
+                        <a href="">Privacy</a>
+                        <a href="">Terms</a>
+                        <a href="">Settings</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+    </div>
+
+    <script src="google.js"></script>
+
+</body>
+</html>

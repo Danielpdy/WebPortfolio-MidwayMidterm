@@ -1,0 +1,113 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #1400ff;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.header {
+  background-color: cyan;
+  padding: 10px;
+}
+
+.door-row {
+  margin-top: 30px;
+}
+
+.door-frame {
+  width: 120px;
+  margin: 0 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.door-frame:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffff;
+  cursor: pointer;
+}
+
+.btn-main, .btn-reset {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-main:hover {
+  background-color: gold;
+}
+
+.btn-reset {
+  background-color: #00ccff;
+}
+
+.btn-reset:hover {
+  background-color: #33e0ff;
+}
+
+.score-row {
+  margin-top: 20px;
+  color: cyan;
+  display: flex;
+  justify-content: center;
+}
+
+.score-box {
+  background: cyan;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.history-box {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.mainContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  justify-content: center;
+  text-align: left;         
+  margin: 30px auto;
+  width: 80%;
+  max-width: 600px;
+  color: white;
+  line-height: 1.8;
+}
+
+.instruction {
+  display: flex;
+  justify-content: start;
+  gap: 10px;                 
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.instruction-number {
+  color: cyan;
+  font-weight: bold;
+  width: 20px;               
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.instruction-text {
+  flex: 1;
+}
+

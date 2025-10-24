@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Door Game</title>
+</head>
+  <body>
+    <section class="mainContent">
+    
+    <div class="header">
+      <img src="./images/logo.svg">
+    </div>
+
+    <div class="first-row">
+      <img src="./images/star.svg">
+      <div class="instructions-title">Instructions</div>
+      <img src="./images/star.svg">
+    </div>
+
+  <div class="instructions-container">
+    <div class="instruction">
+      <span class="instruction-number">1.</span>
+      <span class="instruction-text">Hiding behind one of these doors is a Bot.</span>
+    </div>
+
+    <div class="instruction">
+      <span class="instruction-number">2.</span>
+      <span class="instruction-text">Your mission is to open all doors without finding the Bot.</span>
+    </div>
+
+    <div class="instruction">
+      <span class="instruction-number">3.</span>
+      <span class="instruction-text">If you avoid the Bot until the last door, you win!</span>
+    </div>
+
+    <div class="instruction">
+      <span class="instruction-number">4.</span>
+      <span class="instruction-text">Try to build your winning streak!</span>
+    </div>
+  </div>
+
+
+    <div class="door-row">
+      <img class="door-frame" src="./images/closed_door.svg" id="door1">
+      <img class="door-frame" src="./images/closed_door.svg" id="door2">
+      <img class="door-frame" src="./images/closed_door.svg" id="door3">
+    </div>
+
+    <div class="buttons-row">
+      <button id="start" class="btn-main">Good luck!</button>
+      <button id="reset" class="btn-reset">Play Again</button>
+    </div>
+
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Current streak</th>
+        <th class="score-text">Best streak</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number">0</th>
+        <th class="score-box" id="high-score-number">0</th>
+      </tr>
+    </table>
+
+    <div id="history" class="history-box"></div>
+
+    <script src="script.js"></script>
+
+    </section>
+  </body>
+</html>
